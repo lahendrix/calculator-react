@@ -1,0 +1,26 @@
+.calculator {
+    width: 300px;
+    height: 300px;
+}
+
+.calculator-display {
+    height: 60px;
+    background: black;
+    color: white;
+    text-align: right;
+    line-height: 60px;
+}
+
+.calculator-button {
+    border: 1px solid red;
+    color: black;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.calculator-button.alternate {
+    background: red;
+    color: white;
+}
